@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dingsheng Social Analytics is an internal tool for monitoring authorized social media account performance.">
+  <title>Dingsheng Social Analytics</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #26354a;
+      background: #f6f8fc;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #142d4e;
+      color: white;
+      padding: 22px 8%;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 0.3px;
+    }
+
+    nav a {
+      color: #e7eef8;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #142d4e, #315c88);
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      line-height: 1.3;
+      margin: 0 0 20px;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: auto;
+      font-size: 17px;
+      color: #e1eaf5;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 65px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    .intro {
+      max-width: 780px;
+      margin: 0 auto 45px;
+      text-align: center;
+      color: #5d6b7e;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #e6ebf2;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.03);
+    }
+
+    .card h3 {
+      color: #214b79;
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #617086;
+      font-size: 15px;
+    }
+
+    .notice {
+      margin-top: 45px;
+      padding: 25px 30px;
+      background: #eaf1fa;
+      border-radius: 10px;
+      color: #40546d;
+    }
+
+    .legal {
+      text-align: center;
+      padding: 55px 20px;
+      background: white;
+    }
+
+    .legal a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      color: #214b79;
+      border: 1px solid #214b79;
+      border-radius: 7px;
+      text-decoration: none;
+    }
+
+    .legal a:hover {
+      background: #214b79;
+      color: white;
+    }
+
+    footer {
+      background: #142d4e;
+      color: #c9d5e5;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #dce8f7;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      nav a {
+        margin-left: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Dingsheng Social Analytics</div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Dingsheng Social Analytics</h1>
+    <p>
+      An internal social media analytics tool for
+      monitoring authorized accounts, organizing
+      performance data, and supporting better
+      content decisions.
+    </p>
+  </section>
+
+  <main class="container" id="features">
+
+    <h2>Social Media Performance Management</h2>
+
+    <p class="intro">
+      Dingsheng Social Analytics helps our team
+      manage performance reporting across authorized
+      social media accounts through permitted API
+      integrations and manual data imports.
+    </p>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Account Analytics</h3>
+        <p>
+          Organize available account profile
+          information and performance metrics
+          from connected social media platforms.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Video Performance</h3>
+        <p>
+          Analyze available video views, likes,
+          comments, and shares to understand
+          content engagement.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Reporting Dashboard</h3>
+        <p>
+          View daily and historical reporting
+          data to support internal social
+          media operations and planning.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="notice">
+      <strong>Authorized Access Only</strong>
+      <p>
+        This application is intended for internal
+        business use. Access to TikTok account
+        information requires authorization from
+        the relevant account owner and is subject
+        to applicable API permissions.
+      </p>
+      <p>
+        TikTok data availability depends on the
+        permissions granted and the capabilities
+        of TikTok's official APIs.
+      </p>
+    </div>
+
+  </main>
+
+  <section class="legal">
+    <h2>Legal Information</h2>
+    <p>
+      Learn how the application operates and
+      how authorized account data is handled.
+    </p>
+
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Dingsheng Social Analytics.</p>
+    <p>
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+  </footer>
+
+</body>
+</html>
